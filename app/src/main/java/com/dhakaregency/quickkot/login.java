@@ -10,4 +10,9 @@ public class login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
     }
+    public boolean getUserAuthentication(String user_id)
+    {
+        // do some work here
+        return true;
+    }
 }
